@@ -4,16 +4,19 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(base_path, "Sport car price.csv")
 
 def get_recommendations(u_time, u_price):
+
     if not os.path.exists(csv_path): return []
     
     df = pd.read_csv(csv_path)
 
     df["Price (in USD)"] = df["Price (in USD)"].astype(str).str.replace(r'[\$,"]', '', regex=True)
     df["Price (in USD)"] = pd.to_numeric(df["Price (in USD)"], errors="coerce")
+
     df["0-60 MPH Time (seconds)"] = pd.to_numeric(df["0-60 MPH Time (seconds)"], errors="coerce")
     df.dropna(subset=["Price (in USD)", "0-60 MPH Time (seconds)"], inplace=True)
 
     affordable = df[df["Price (in USD)"] <= u_price].copy()
+    
     if affordable.empty: return []
 
     p_max = df["Price (in USD)"].max()
