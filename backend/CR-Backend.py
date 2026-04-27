@@ -16,7 +16,7 @@ def get_recommendations(u_time, u_price):
     df.dropna(subset=["Price (in USD)", "0-60 MPH Time (seconds)"], inplace=True)
 
     affordable = df[df["Price (in USD)"] <= u_price].copy()
-    
+
     if affordable.empty: return []
 
     p_max = df["Price (in USD)"].max()
@@ -28,18 +28,23 @@ def get_recommendations(u_time, u_price):
     unique_cars = affordable.drop_duplicates(subset=["Car Name", "Car Model"])
 
     results = []
+
     for _, row in unique_cars.head(5).iterrows():
+
         results.append({
             "Car_Name": str(row["Car Name"]),
             "Car_Model": str(row["Car Model"]),
             "Time": float(row["0-60 MPH Time (seconds)"]),
             "Price": float(row["Price (in USD)"])
         })
+
     return results
 
 if __name__ == "__main__":
+
     try:
         print(json.dumps(get_recommendations(float(sys.argv[1]), float(sys.argv[2]))))
     except:
+        
         print(json.dumps([]))
         
