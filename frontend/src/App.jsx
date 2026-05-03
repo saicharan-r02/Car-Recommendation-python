@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
+
   const [prefs, setPrefs] = useState({ time: 3.5, price: 100000 });
   const [cars, setCars] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       setLoading(false);
       return;
     }
+
     try {
       const res = await axios.post('http://localhost:5001/api/recommend', prefs);
       if (res.data && res.data.length > 0) {
@@ -25,9 +27,11 @@ function App() {
       } else {
         setError("No cars found matching those exact specs. Try a different range!");
       }
-    } catch (err) {
+    } 
+    catch (err) {
       setError("Server Error: Ensure the Backend is running and folder names are correct.");
-    } finally {
+    }
+    finally {
       setLoading(false);
     }
   };
