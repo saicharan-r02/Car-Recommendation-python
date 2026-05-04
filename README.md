@@ -1,8 +1,9 @@
-
 # 🏎️ Sports Car Recommendation Engine
 
 Sports Car Recommendation Engine is a Machine Learning project built to suggest the perfect high-performance vehicles to users based on their specific performance criteria. By analyzing a comprehensive dataset of sports cars, the system cleans the data and utilizes similarity algorithms to find the closest match to a user's desired specifications.
 
+# Problem Statement
+Selecting a sports car involves evaluating multiple factors such as performance, price, and speed, making it a complex decision-making process. Existing platforms rely on manual filtering and do not effectively capture user preferences across these dimensions. This project addresses the problem by developing a machine learning–based recommendation system that analyzes user-defined criteria and identifies the most suitable cars using similarity-based matching.
 
 # 🚀 Key Features
 
