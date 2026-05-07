@@ -29,6 +29,7 @@ Scikit-Learn: The Machine Learning library utilized for calculating similarities
 
 # 📁 Project Structure
 
+
 ```
 Car-Recommendation/
 ├── backend/
@@ -62,6 +63,7 @@ Car-Recommendation/
 
 # ⚙️ Installation & Setup
 
+
 ## 1. Clone the Repository
 
 git clone https://github.com/saicharan-o/Car-Recommendation-python.git
@@ -86,6 +88,7 @@ python src/recommendation_logic.py
 
 # 🧠 How It Works (The Logic)
 
+
 Data Ingestion: The system loads Sport car price.csv, which contains various attributes of modern sports cars.
 
 Data Cleaning: The pandas library removes null values, standardizes text (e.g., converting strings to lowercase), and prepares numerical columns for calculation.
@@ -93,4 +96,3 @@ Data Cleaning: The pandas library removes null values, standardizes text (e.g., 
 Feature Vectorization: The car attributes are converted into a mathematical format (vectors) using scikit-learn.
 
 Similarity Calculation: The system calculates the similarity score between the user's requested criteria and the available cars in the dataset.
-
