@@ -94,4 +94,3 @@ Feature Vectorization: The car attributes are converted into a mathematical form
 
 Similarity Calculation: The system calculates the similarity score between the user's requested criteria and the available cars in the dataset.
 
-Output: The top closest matches are returned, providing a ranked list of recommended sports cars.
