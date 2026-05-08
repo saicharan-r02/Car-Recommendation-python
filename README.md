@@ -106,3 +106,4 @@ Similarity Calculation: The system calculates the similarity score between the u
 ![Sport Car Recommender – High Budget Configuration](<Screenshot 2026-05-02 134527.png>)
 ![Sport Car Recommender – Recommendation Loading State](<Screenshot 2026-05-02 134651.png>)
 ![Sport Car Recommender – Recommended Cars Results Page](<Screenshot 2026-05-02 134711.png>)
+![High_Budget_Input_State](<Screenshot 2026-05-02 134741.png>)
