@@ -96,3 +96,5 @@ Data Cleaning: The pandas library removes null values, standardizes text (e.g., 
 Feature Vectorization: The car attributes are converted into a mathematical format (vectors) using scikit-learn.
 
 Similarity Calculation: The system calculates the similarity score between the user's requested criteria and the available cars in the dataset.
+
+# OUTPUT
