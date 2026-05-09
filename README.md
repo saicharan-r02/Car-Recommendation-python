@@ -115,3 +115,5 @@ Similarity Calculation: The system calculates the similarity score between the u
 ![Luxury Supercar Results](<Screenshot 2026-05-02 134759.png>)
 
 ![Low Budget Input State](<Screenshot 2026-05-02 134913.png>)
+
+![Affordable Sports Car Results](<Screenshot 2026-05-02 134928.png>)
