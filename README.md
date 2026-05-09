@@ -111,3 +111,5 @@ Similarity Calculation: The system calculates the similarity score between the u
 ![Sport Car Recommender – Recommended Cars Results Page](<Screenshot 2026-05-02 134711.png>)
 
 ![High Budget Input State](<Screenshot 2026-05-02 134741.png>)
+
+![Luxury Supercar Results](<Screenshot 2026-05-02 134759.png>)
