@@ -100,20 +100,20 @@ Similarity Calculation: The system calculates the similarity score between the u
 # OUTPUT
 
 
-![Sport Car Recommender – Default Interface](<Screenshot 2026-05-02 134433.png>)
+![Sport Car Recommender – Default Interface](<Sport Car Recommender – Default Interface-fig-1.png>)
 
-![Sport Car Recommender – Low Budget Input](<Screenshot 2026-05-02 134457.png>)
+![Sport Car Recommender – Low Budget Input](<Sport Car Recommender – Low Budget Input-fig-2.png>)
 
-![Sport Car Recommender – High Budget Configuration](<Screenshot 2026-05-02 134527.png>)
+![Sport Car Recommender – High Budget Configuration](<Sport Car Recommender – High Budget Configuration-fig-3.png>)
 
-![Sport Car Recommender – Recommendation Loading State](<Screenshot 2026-05-02 134651.png>)
+![Sport Car Recommender – Recommendation Loading State](<Sport Car Recommender – Recommendation Loading State-fig-4.png>)
 
-![Sport Car Recommender – Recommended Cars Results Page](<Screenshot 2026-05-02 134711.png>)
+![Sport Car Recommender – Recommended Cars Results Page](<Sport Car Recommender – Recommended Cars Results Page-fig-5.png>)
 
-![High Budget Input State](<Screenshot 2026-05-02 134741.png>)
+![High Budget Input State](<High Budget Input State-fig-6.png>)
 
-![Luxury Supercar Results](<Screenshot 2026-05-02 134759.png>)
+![Luxury Supercar Results](<Luxury Supercar Results-fig-7.png>)
 
-![Low Budget Input State](<Screenshot 2026-05-02 134913.png>)
+![Low Budget Input State](<Low Budget Input State-fig-8.png>)
 
-![Affordable Sports Car Results](<Screenshot 2026-05-02 134928.png>)
+![Affordable Sports Car Results](<Affordable Sports Car Results-fig-9.png>)
